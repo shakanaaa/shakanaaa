@@ -118,14 +118,8 @@ I have been learning programming for about <b>2 years</b>, and I am always eager
 
 ---
 
-## 🐍 Contribution Snake:
-
 <p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shakanaaa/shakanaaa/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shakanaaa/shakanaaa/output/github-contribution-grid-snake.svg">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/shakanaaa/shakanaaa/output/github-contribution-grid-snake.svg">
-</picture>
+  <img src="https://raw.githubusercontent.com/shakanaaa/shakanaaa/output/snake.svg" />
 </p>
 
 ---
