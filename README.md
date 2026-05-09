@@ -119,8 +119,6 @@ I have been learning programming for about <b>2 years</b>, and I am always eager
 ---
 
   <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RedBlue-awik/RedBlue-awik/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RedBlue-awik/RedBlue-awik/output/pacman-contribution-graph.svg">
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/RedBlue-awik/RedBlue-awik/output/pacman-contribution-graph.svg">
 </picture>
 ---
