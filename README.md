@@ -115,12 +115,6 @@ I have been learning programming for about <b>2 years</b>, and I am always eager
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&theme=tokyonight&hide_border=true&layout=compact" />
 </p>
-
----
-
-  <picture>
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/RedBlue-awik/RedBlue-awik/output/pacman-contribution-graph.svg">
-</picture>
 ---
 
 ✨ *“Keep learning, keep building, and never stop creating.”*
