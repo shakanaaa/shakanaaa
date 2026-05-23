@@ -1,6 +1,6 @@
-<div align="center">
+<img width="2110" height="1118" alt="image" src="https://github.com/user-attachments/assets/3962c41a-f351-4ea9-99a3-24afe678c35a" /><img width="2110" height="1118" alt="image" src="https://github.com/user-attachments/assets/00fa5ecb-8a6e-4cb8-8476-d559469ff9f9" /><div align="center">
 <!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Muhammad%20Rizki%20Abdillah&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Self-taught%20Developer%20%7C%20Artist%20%7C%20Anime%20Lover&descAlignY=56&descSize=18"/>
+<img width="100%" src="[https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Muhammad%20Rizki%20Abdillah&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Self-taught%20Developer%20%7C%20Artist%20%7C%20Anime%20Lover&descAlignY=56&descSize=18](https://ibb.co.com/Zz0LYDzD)"/>
 <!-- Typing Effect -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=500&lines=Hey+there!+I'm+Rizki+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%92%BB;Creative+Artist+%F0%9F%8E%A8;Anime+Enthusiast+%F0%9F%8E%8C;Always+learning+new+things+%E2%9C%A8" alt="Typing SVG" />
 <br/>
