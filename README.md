@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img width="100%" src="https://ibb.co.com/Zz0LYDzD"/>
+<a href='https://postimg.cc/239kdDKV' target='_blank'><img src='https://i.postimg.cc/Kvx12c7r/Kizumonogatari-Part-1-Tekketsu-screenshot-(2).jpg' border='0' alt='Kizumonogatari-Part-1-Tekketsu-screenshot-(2)'></a>
 
 <!-- Typing Effect -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&random=false&width=500&lines=Hey+there!+I'm+Rizki+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%92%BB;Creative+Artist+%F0%9F%8E%A8;Anime+Enthusiast+%F0%9F%8E%8C;Always+learning+new+things+%E2%9C%A8" alt="Typing SVG" />
