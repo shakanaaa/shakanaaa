@@ -115,11 +115,15 @@ quote       : "Keep learning, keep building, and never stop creating."
 ## 📊 GitHub Stats
  
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=shakanaaa&theme=tokyonight&hide_border=true&show_icons=true&count_private=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://streak-stats.demolab.com?user=shakanaaa&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shakanaaa&theme=tokyonight" alt="Stats" width="32%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shakanaaa&theme=tokyonight&utcOffset=7" alt="Productive Time" width="32%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shakanaaa&theme=tokyonight" alt="Most Commit Language" width="32%"/>
 </p>
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shakanaaa&theme=tokyonight" alt="Profile Details" width="98%"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shakanaaa&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 ---
  
