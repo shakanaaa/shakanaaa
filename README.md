@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.ibb.co.com/67TTnSJF/download-ezgif-com-resize.gif" width="100%" alt="banner"/>
+<img src="https://i.postimg.cc/Kvx12c7r/Kizumonogatari-Part-1-Tekketsu-screenshot-(2).jpg" width="100%" alt="banner"/>
 
 <br/><br/>
 
@@ -19,6 +19,8 @@
   <a href="mailto:rizkyclip69@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
   <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/MyAnimeList-2E51A2?style=flat-square&logo=myanimelist&logoColor=white"/></a>
 </p>
+
+<img src="https://i.ibb.co/LXzq4VHs/download.gif" width="450"/>
 
 </div>
 
