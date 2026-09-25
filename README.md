@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.ibb.co/LXzq4VHs/download.gif" width="100%" alt="banner"/>
+<img src="https://i.ibb.co.com/67TTnSJF/download-ezgif-com-resize.gif" width="100%" alt="banner"/>
 
 <br/><br/>
 
