@@ -24,9 +24,9 @@
 
 <br/>
 
-## 👋 Tentang Saya
+## 👋 About Me
 
-> Keep learning, keep building, and never stop creating.
+> Hor Hor Hor
 
 --> Here my portofolio: (https://shakanaaa.github.io/portofolio/)
 
