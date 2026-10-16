@@ -28,6 +28,8 @@
 
 > Keep learning, keep building, and never stop creating.
 
+--> Here my portofolio: (https://shakanaaa.github.io/portofolio/)
+
 - 🇮🇩 Berbasis di Indonesia
 - 🔭 Sedang mendalami **full-stack development**
 - 🎨 Suka menggambar & digital art ([@this_whisky69](https://instagram.com/this_whisky69))
