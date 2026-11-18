@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="210" viewBox="0 0 1000 210" role="img" aria-label="Persona 3 Reload Portfolio — personal website inspired by Persona 3 Reload pause menu">
 <title>Persona 3 Reload Portfolio</title>
-<defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21152B"/><stop offset="1" stop-color="#15111F"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FF8FC7"/><stop offset="1" stop-color="#C7A7FF"/></linearGradient></defs>
-<rect x="2" y="2" width="996" height="206" rx="24" fill="url(#p)" stroke="#694565" stroke-width="2"/>
+<defs><linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1F242C"/><stop offset="1" stop-color="#161B22"/></linearGradient><linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#BC8CFF"/><stop offset="1" stop-color="#79C0FF"/></linearGradient></defs>
+<rect x="2" y="2" width="996" height="206" rx="24" fill="url(#p)" stroke="#30363D" stroke-width="2"/>
 <rect x="28" y="28" width="8" height="154" rx="4" fill="url(#a)"/>
-<text x="66" y="74" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#C7A7FF">FEATURED PROJECT / 01</text>
-<text x="66" y="116" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="800" fill="#FFEAF5">Persona 3 Reload Portfolio</text>
-<text x="66" y="150" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#CDB8D0">Personal website inspired by the pause menu of Persona 3 Reload.</text>
-<rect x="755" y="78" width="196" height="54" rx="27" fill="#38213F" stroke="#A65E91" stroke-width="1.5"/>
-<text x="853" y="111" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#FF9BCB">OPEN LIVE DEMO ↗</text>
-<text x="66" y="181" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="1.4" fill="#9D86A8">PERSONAL WEBSITE  ·  BEST VIEWED ON DESKTOP</text>
+<text x="66" y="74" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#79C0FF">FEATURED PROJECT / 01</text>
+<text x="66" y="116" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="800" fill="#E6EDF3">Persona 3 Reload Portfolio</text>
+<text x="66" y="150" font-family="Segoe UI,Arial,sans-serif" font-size="18" fill="#8B949E">Personal website inspired by the pause menu of Persona 3 Reload.</text>
+<rect x="755" y="78" width="196" height="54" rx="27" fill="#21262D" stroke="#BC8CFF" stroke-width="1.5"/>
+<text x="853" y="111" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#BC8CFF">OPEN LIVE DEMO ↗</text>
+<text x="66" y="181" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="1.4" fill="#6E7681">PERSONAL WEBSITE  ·  BEST VIEWED ON DESKTOP</text>
 </svg>

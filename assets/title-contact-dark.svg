@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="76" viewBox="0 0 1000 76" role="img" aria-label="FIND ME">
 <title>FIND ME</title>
-<rect x="2" y="2" width="996" height="72" rx="19" fill="#17121F" stroke="#503650" stroke-width="2"/>
-<path d="M34 38h250M716 38h250" stroke="#61445F" stroke-width="2" stroke-linecap="round"/>
-<path d="M106 27c-8-7-5-16 1-12 5-4 9 5-1 12z" fill="#D8B9FF"/>
-<path d="M894 27c-8-7-5-16 1-12 5-4 9 5-1 12z" fill="#D8B9FF"/>
-<text x="500" y="48" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="2" fill="#FFEAF5">FIND ME</text>
+<rect x="2" y="2" width="996" height="72" rx="19" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+<path d="M34 38h250M716 38h250" stroke="#30363D" stroke-width="2" stroke-linecap="round"/>
+<path d="M106 27c-8-7-5-16 1-12 5-4 9 5-1 12z" fill="#79C0FF"/>
+<path d="M894 27c-8-7-5-16 1-12 5-4 9 5-1 12z" fill="#79C0FF"/>
+<text x="500" y="48" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="2" fill="#E6EDF3">FIND ME</text>
 </svg>

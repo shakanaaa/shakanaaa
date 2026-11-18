@@ -11,13 +11,13 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1400&color=FF8FC7&center=true&vCenter=true&width=620&height=34&lines=Building+something+interesting.;Turning+ideas+into+code.;Creating+art+and+digital+experiences.;Always+learning+something+new." alt="Building something interesting. Turning ideas into code. Creating art and digital experiences. Always learning something new.">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1400&color=BC8CFF&center=true&vCenter=true&width=620&height=34&lines=Building+something+interesting.;Turning+ideas+into+code.;Creating+art+and+digital+experiences.;Always+learning+something+new." alt="Building something interesting. Turning ideas into code. Creating art and digital experiences. Always learning something new.">
 </p>
 
 <p align="center">
   <a href="https://shakanaaa.github.io/portofolio/"><img src="./assets/button-88x31.svg" width="88" height="31" alt="Visit portfolio"></a>
-  &nbsp; <img src="https://komarev.com/ghpvc/?username=shakanaaa&style=flat-square&color=9D5B91&label=PROFILE+VIEWS" alt="Profile views">
-  &nbsp; <img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=9D5B91&label=FOLLOWERS" alt="GitHub followers">
+  &nbsp; <img src="https://komarev.com/ghpvc/?username=shakanaaa&style=flat-square&color=1F6FEB&label=PROFILE+VIEWS" alt="Profile views">
+  &nbsp; <img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=1F6FEB&label=FOLLOWERS" alt="GitHub followers">
 </p>
 
 <p align="center">
@@ -46,7 +46,7 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
 <!-- Yui separator -->
 <p align="center">
   <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" width="118" alt="Yui character separator"><br>
+  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
   <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
 </p>
 
@@ -62,7 +62,7 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
 
 <p align="center">
   <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" width="118" alt="Yui character separator"><br>
+  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
   <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
 </p>
 
@@ -103,28 +103,28 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
 
 <p align="center">
   <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" width="118" alt="Yui character separator"><br>
+  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
   <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
 </p>
 
 <p align="center"><img src="./assets/title-stats-dark.svg" width="100%" alt="GitHub Stats"></p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shakanaaa&show_icons=true&hide_border=true&bg_color=17121F&title_color=FF8FC7&text_color=F5E7F2&icon_color=D8B9FF&ring_color=FF8FC7&border_radius=18" width="49%" alt="GitHub stats of shakanaaa">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&layout=compact&hide_border=true&bg_color=17121F&title_color=FF8FC7&text_color=F5E7F2&border_radius=18" width="49%" alt="Most used programming languages of shakanaaa">
+  <img src="https://github-readme-stats.vercel.app/api?username=shakanaaa&show_icons=true&hide_border=true&bg_color=0D1117&title_color=BC8CFF&text_color=E6EDF3&icon_color=79C0FF&ring_color=BC8CFF&border_radius=18" width="49%" alt="GitHub stats of shakanaaa">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&layout=compact&hide_border=true&bg_color=0D1117&title_color=BC8CFF&text_color=E6EDF3&border_radius=18" width="49%" alt="Most used programming languages of shakanaaa">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=shakanaaa&hide_border=true&background=17121F&ring=FF8FC7&fire=FF8FC7&currStreakLabel=D8B9FF&sideLabels=D8B9FF&currStreakNum=F5E7F2&sideNums=F5E7F2&dates=B99FBE&border_radius=18" width="82%" alt="Contribution streak of shakanaaa">
+  <img src="https://streak-stats.demolab.com?user=shakanaaa&hide_border=true&background=0D1117&ring=BC8CFF&fire=BC8CFF&currStreakLabel=79C0FF&sideLabels=79C0FF&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=6E7681&border_radius=18" width="82%" alt="Contribution streak of shakanaaa">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakanaaa&hide_border=true&bg_color=17121F&color=F5E7F2&line=FF8FC7&point=D8B9FF&area=true&area_color=4B2949&title_color=FF8FC7" width="100%" alt="GitHub contribution activity graph of shakanaaa">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakanaaa&hide_border=true&bg_color=0D1117&color=E6EDF3&line=BC8CFF&point=79C0FF&area=true&area_color=30363D&title_color=BC8CFF" width="100%" alt="GitHub contribution activity graph of shakanaaa">
 </p>
 
 <p align="center">
   <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" width="118" alt="Yui character separator"><br>
+  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png"  alt="Yui character separator"><br>
   <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
 </p>
 
@@ -133,25 +133,25 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
 <p align="center"><img src="./assets/interests-dark.svg" width="100%" alt="Anime, Digital Art, Creative Projects, and Programming"></p>
 
 <p align="center">
-  <a href="https://instagram.com/this_whisky69"><img src="https://img.shields.io/badge/ART%20GALLERY-Instagram-9D5B91?style=flat-square&logo=instagram&logoColor=white" alt="Instagram art gallery"></a>
-  <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/ANIME%20LIST-MyAnimeList-76558F?style=flat-square&logo=myanimelist&logoColor=white" alt="MyAnimeList profile"></a>
+  <a href="https://instagram.com/this_whisky69"><img src="https://img.shields.io/badge/ART%20GALLERY-Instagram-8250DF?style=flat-square&logo=instagram&logoColor=white" alt="Instagram art gallery"></a>
+  <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/ANIME%20LIST-MyAnimeList-1F6FEB?style=flat-square&logo=myanimelist&logoColor=white" alt="MyAnimeList profile"></a>
 </p>
 
 <p align="center">
   <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" width="118" alt="Yui character separator"><br>
+  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
   <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
 </p>
 
 <p align="center"><img src="./assets/title-contact-dark.svg" width="100%" alt="Find Me"></p>
 
 <p align="center">
-  <a href="https://discord.gg/vNMPTWY9s"><img src="https://img.shields.io/badge/Discord-6F4B86?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://instagram.com/this_whisky69"><img src="https://img.shields.io/badge/Instagram-9D5B91?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://tiktok.com/@ryynx20"><img src="https://img.shields.io/badge/TikTok-76558F?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
-  <a href="https://x.com/ThisRizky699"><img src="https://img.shields.io/badge/X-59466F?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-  <a href="mailto:rizkyclip69@gmail.com"><img src="https://img.shields.io/badge/Email-9D5B91?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/MyAnimeList-76558F?style=for-the-badge&logo=myanimelist&logoColor=white" alt="MyAnimeList"></a>
+  <a href="https://discord.gg/vNMPTWY9s"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://instagram.com/this_whisky69"><img src="https://img.shields.io/badge/Instagram-8250DF?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://tiktok.com/@ryynx20"><img src="https://img.shields.io/badge/TikTok-30363D?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
+  <a href="https://x.com/ThisRizky699"><img src="https://img.shields.io/badge/X-30363D?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="mailto:rizkyclip69@gmail.com"><img src="https://img.shields.io/badge/Email-8250DF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/MyAnimeList-1F6FEB?style=for-the-badge&logo=myanimelist&logoColor=white" alt="MyAnimeList"></a>
 </p>
 
 <p align="center"><img src="./assets/sticker-bow-3d.svg" width="76" alt="Pink 3D bow sticker"></p>
