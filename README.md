@@ -15,92 +15,53 @@
 <a href="mailto:rizkyclip69@gmail.com"><img src="https://img.shields.io/badge/Email-F9A8D4?style=flat-square&logo=gmail&logoColor=4A1D3F" alt="Email"/></a>
 <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/MyAnimeList-F9A8D4?style=flat-square&logo=myanimelist&logoColor=4A1D3F" alt="MyAnimeList"/></a>
 
-<img src="https://komarev.com/ghpvc/?username=shakanaaa&color=F9A8D4&style=flat-square&label=PROFILE+VIEWS&labelColor=6B21A8" alt="Profile views"/>
-<img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=F9A8D4&label=FOLLOWERS&labelColor=6B21A8" alt="Followers"/>
-
 </div>
-
-<br/>
 
 ## 🌸 About Me <sub>· 私について</sub>
 
-<img align="right" src="https://i.ibb.co.com/fYd8sYHG/World-of-Our-Fantasy.gif" width="38%" alt="World of Our Fantasy"/>
+<img align="right" src="https://i.ibb.co.com/fYd8sYHG/World-of-Our-Fantasy.gif" width="36%" alt="World of Our Fantasy"/>
 
 *Hor Hor Hor~* ♡
 
 Halo, aku Rizki. Developer sekaligus artist dari Indonesia yang suka nonton anime, lagi sibuk mendalami full-stack development, dan senang bikin sesuatu yang kreatif.
 
-- 🇮🇩 Berbasis di Indonesia
-- 💻 Full-Stack Developer
-- 🎨 Digital Art, Anime, Programming
-- 🔭 Fokus sekarang: Full-Stack Development
-- 🍡 Portfolio: [shakanaaa.github.io/portofolio](https://shakanaaa.github.io/portofolio/)
+**Lokasi** · Indonesia<br/>
+**Minat** · Digital Art, Anime, Programming<br/>
+**Fokus sekarang** · Full-Stack Development<br/>
+**Portfolio** · [shakanaaa.github.io/portofolio](https://shakanaaa.github.io/portofolio/)
 
 <br clear="right"/>
 
 > [!IMPORTANT]
-> 💌 **Open to collaboration!** Terbuka untuk kolaborasi proyek menarik, chat aja ya ♡
+> **Open to collaboration.** Terbuka untuk kolaborasi proyek menarik, chat aja ya ♡
 
-<br/>
+## 🎮 Featured Projects <sub>· 注目のプロジェクト</sub>
 
-<h2 align="center">🎮 Featured Projects <sub>· 注目のプロジェクト</sub></h2>
-
-<div align="center">
-
-**Persona 3 Reload Portfolio**
-
-Portfolio pribadi dengan tampilan bergaya Pause Menu dari *Persona 3 Reload*.
-
-<img src="https://img.shields.io/badge/Type-Personal_Website-F9A8D4?style=flat-square&labelColor=6B21A8" alt="Type: Personal Website"/>
-<img src="https://img.shields.io/badge/Best_on-Desktop-F9A8D4?style=flat-square&labelColor=6B21A8" alt="Best on desktop"/>
-<a href="https://shakanaaa.github.io/portofolio/"><img src="https://img.shields.io/badge/Live_Demo-Open-F472B6?style=flat-square&logo=githubpages&logoColor=white" alt="Live demo"/></a>
-
-</div>
+> **[Persona 3 Reload Portfolio](https://shakanaaa.github.io/portofolio/)**
+>
+> Portfolio pribadi dengan tampilan bergaya Pause Menu dari *Persona 3 Reload*.
+>
+> <img src="https://img.shields.io/badge/Type-Personal_Website-F9A8D4?style=flat-square&labelColor=6B21A8" alt="Type: Personal Website"/> <img src="https://img.shields.io/badge/Best_on-Desktop-F9A8D4?style=flat-square&labelColor=6B21A8" alt="Best on desktop"/> <a href="https://shakanaaa.github.io/portofolio/"><img src="https://img.shields.io/badge/Live_Demo-Open-F472B6?style=flat-square&logo=githubpages&logoColor=white" alt="Live demo"/></a>
 
 <!--
-  Tambah project baru dengan menyalin blok di atas, lalu isi nama, deskripsi singkat,
+  Tambah project baru dengan menyalin blok kutipan di atas, lalu isi nama, deskripsi singkat,
   badge teknologi/status, serta link repository dan live demo.
   Atau pakai pin card dari repo asli:
   <a href="https://github.com/shakanaaa/NAMA-REPO"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shakanaaa&repo=NAMA-REPO&theme=transparent&title_color=FF8FC7&text_color=D8B4FE&icon_color=FF8FC7&hide_border=true" alt="NAMA-REPO"/></a>
 -->
 
-<br/>
+## 🍓 Tech Stack <sub>· 技術スタック</sub>
 
-<h2 align="center">🍓 Tech Stack <sub>· 技術スタック</sub></h2>
+| Kategori | Teknologi |
+|:--|:--|
+| **Languages** | <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,js,php,py&perline=7" alt="C, C++, C#, Java, JavaScript, PHP, Python"/> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,angular,react,vue&perline=7" alt="HTML, CSS, Bootstrap, Tailwind CSS, Angular, React, Vue"/> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express,laravel,nestjs,nextjs&perline=7" alt="Node.js, Express, Laravel, NestJS, Next.js"/> |
+| **Database & ORM** | <img src="https://skillicons.dev/icons?i=mysql,sqlite,prisma&perline=7" alt="MySQL, SQLite, Prisma"/> |
+| **Design & Creative** | <img src="https://skillicons.dev/icons?i=figma,ai,ae&perline=7" alt="Figma, Adobe Illustrator, Adobe After Effects"/> |
+| **Others** | <img src="https://skillicons.dev/icons?i=tensorflow,opengl,webgl,git,github&perline=7" alt="TensorFlow, OpenGL, WebGL, Git, GitHub"/> |
 
-<p align="left">
-  <b>🌷 Languages</b><br/>
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,js,php,py&perline=7" alt="C, C++, C#, Java, JavaScript, PHP, Python"/>
-</p>
-
-<p align="right">
-  <b>🎀 Frontend</b><br/>
-  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,angular,react,vue&perline=7" alt="HTML, CSS, Bootstrap, Tailwind CSS, Angular, React, Vue"/>
-</p>
-
-<p align="left">
-  <b>🍓 Backend</b><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,laravel,nestjs,nextjs&perline=7" alt="Node.js, Express, Laravel, NestJS, Next.js"/>
-</p>
-
-<p align="right">
-  <b>🍰 Database & ORM</b><br/>
-  <img src="https://skillicons.dev/icons?i=mysql,sqlite,prisma&perline=7" alt="MySQL, SQLite, Prisma"/>
-</p>
-
-<p align="left">
-  <b>🌸 Design & Creative Tools</b><br/>
-  <img src="https://skillicons.dev/icons?i=figma,ai,ae&perline=7" alt="Figma, Adobe Illustrator, Adobe After Effects"/>
-</p>
-
-<p align="right">
-  <b>💖 Others</b><br/>
-  <img src="https://skillicons.dev/icons?i=tensorflow,opengl,webgl,git,github&perline=7" alt="TensorFlow, OpenGL, WebGL, Git, GitHub"/>
-</p>
-
-<br/>
-
-<h2 align="center">✧ GitHub Stats <sub>· 統計</sub></h2>
+## ✧ GitHub Stats <sub>· 統計</sub>
 
 <p align="center">
   <picture>
@@ -127,38 +88,30 @@ Portfolio pribadi dengan tampilan bergaya Pause Menu dari *Persona 3 Reload*.
   </picture>
 </p>
 
-<br/>
-
 ## 🎀 Interests <sub>· 好きなもの</sub>
 
 <img align="left" src="assets/sticker-cat.svg" width="22%" alt="Kawaii cat sticker"/>
 
-&nbsp;🍥 **Anime** · penggemar anime, daftar tontonanku ada di [MyAnimeList](https://myanimelist.net/profile/Shakanaa)
+**Anime** · penggemar anime, daftar tontonanku ada di [MyAnimeList](https://myanimelist.net/profile/Shakanaa)
 
-&nbsp;🎨 **Digital Art** · suka menggambar, karyaku ada di [Instagram](https://instagram.com/this_whisky69)
+**Digital Art** · suka menggambar, karyaku ada di [Instagram](https://instagram.com/this_whisky69)
 
-&nbsp;🌸 **Creative Projects** · mengubah ide jadi karya, dari visual sampai [website](https://shakanaaa.github.io/portofolio/)
+**Creative Projects** · mengubah ide jadi karya, dari visual sampai [website](https://shakanaaa.github.io/portofolio/)
 
-&nbsp;💻 **Programming** · lagi mendalami full-stack development
+**Programming** · lagi mendalami full-stack development
 
 <br clear="left"/>
 
-<br/>
-
-<h2 align="center">💌 Contact <sub>· 連絡先</sub></h2>
-
-<div align="center">
+## 💌 Contact <sub>· 連絡先</sub>
 
 Terbuka buat kolaborasi proyek, chat aja ya ♡
 
-<a href="https://discord.gg/vNMPTWY9s"><img src="https://img.shields.io/badge/Discord-Join_Server-F9A8D4?style=flat-square&logo=discord&logoColor=white&labelColor=6B21A8" alt="Discord"/></a>
-<a href="https://instagram.com/this_whisky69"><img src="https://img.shields.io/badge/Instagram-this__whisky69-F9A8D4?style=flat-square&logo=instagram&logoColor=white&labelColor=6B21A8" alt="Instagram"/></a>
-<a href="https://tiktok.com/@ryynx20"><img src="https://img.shields.io/badge/TikTok-ryynx20-F9A8D4?style=flat-square&logo=tiktok&logoColor=white&labelColor=6B21A8" alt="TikTok"/></a>
-<a href="https://x.com/ThisRizky699"><img src="https://img.shields.io/badge/X-ThisRizky699-F9A8D4?style=flat-square&logo=x&logoColor=white&labelColor=6B21A8" alt="X"/></a>
-<a href="mailto:rizkyclip69@gmail.com"><img src="https://img.shields.io/badge/Email-rizkyclip69%40gmail.com-F9A8D4?style=flat-square&logo=gmail&logoColor=white&labelColor=6B21A8" alt="Email"/></a>
-<a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/MyAnimeList-Shakanaa-F9A8D4?style=flat-square&logo=myanimelist&logoColor=white&labelColor=6B21A8" alt="MyAnimeList"/></a>
-
-</div>
+- **Discord** · [Join server](https://discord.gg/vNMPTWY9s)
+- **Instagram** · [@this_whisky69](https://instagram.com/this_whisky69)
+- **TikTok** · [@ryynx20](https://tiktok.com/@ryynx20)
+- **X** · [@ThisRizky699](https://x.com/ThisRizky699)
+- **Email** · [rizkyclip69@gmail.com](mailto:rizkyclip69@gmail.com)
+- **MyAnimeList** · [Shakanaa](https://myanimelist.net/profile/Shakanaa)
 
 <br/>
 
@@ -173,5 +126,8 @@ Terbuka buat kolaborasi proyek, chat aja ya ♡
 Kalau kamu suka profilku, kasih ⭐ di repo ini ya~
 
 **Arigatou gozaimasu! Mata ne~ ♡**
+
+<img src="https://komarev.com/ghpvc/?username=shakanaaa&color=F9A8D4&style=flat-square&label=PROFILE+VIEWS&labelColor=6B21A8" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=F9A8D4&label=FOLLOWERS&labelColor=6B21A8" alt="Followers"/>
 
 </div>
