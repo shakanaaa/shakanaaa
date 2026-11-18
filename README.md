@@ -104,6 +104,8 @@ Halo, aku Rizki. Developer sekaligus artist dari Indonesia yang suka nonton anim
 
 ## 💌 Contact <sub>· 連絡先</sub>
 
+<img align="right" src="assets/sticker-heart-3d.svg" width="18%" alt="Glossy 3D heart sticker"/>
+
 Terbuka buat kolaborasi proyek, chat aja ya ♡
 
 - **Discord** · [Join server](https://discord.gg/vNMPTWY9s)
@@ -113,9 +115,11 @@ Terbuka buat kolaborasi proyek, chat aja ya ♡
 - **Email** · [rizkyclip69@gmail.com](mailto:rizkyclip69@gmail.com)
 - **MyAnimeList** · [Shakanaa](https://myanimelist.net/profile/Shakanaa)
 
-<br/>
+<br clear="right"/>
 
 <div align="center">
+
+<img src="assets/sticker-bow-3d.svg" width="84" alt="Glossy 3D bow sticker"/>
 
 ```
  ∧＿∧
