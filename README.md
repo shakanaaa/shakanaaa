@@ -43,12 +43,7 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
 
 <p align="center"><sub>hor hor hor~ thanks for stopping by ♡</sub></p>
 
-<!-- Yui separator -->
-<p align="center">
-  <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
-  <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
-</p>
+
 
 <p align="center"><img src="./assets/title-projects-dark.svg" width="100%" alt="Featured Projects"></p>
 
@@ -60,11 +55,7 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
 
 <p align="center"><sub>More little creations will be added here as they grow~</sub></p>
 
-<p align="center">
-  <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
-  <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
-</p>
+
 
 <p align="center"><img src="./assets/title-tech-dark.svg" width="100%" alt="Tech Stack"></p>
 
@@ -137,11 +128,6 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
   <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/ANIME%20LIST-MyAnimeList-1F6FEB?style=flat-square&logo=myanimelist&logoColor=white" alt="MyAnimeList profile"></a>
 </p>
 
-<p align="center">
-  <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
-  <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
-</p>
 
 <p align="center"><img src="./assets/title-contact-dark.svg" width="100%" alt="Find Me"></p>
 
