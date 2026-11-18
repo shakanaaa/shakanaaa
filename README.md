@@ -1,26 +1,22 @@
 <p align="center">
   <a href="https://shakanaaa.github.io/portofolio/">
-    <img src="https://i.ibb.co.com/fYd8sYHG/World-of-Our-Fantasy.gif" alt="World of Our Fantasy" width="50%">
+    <img src="https://i.ibb.co.com/fYd8sYHG/World-of-Our-Fantasy.gif" alt="World of Our Fantasy" width="60%">
   </a>
 </p>
 
 <h1 align="center">hai, aku <a href="https://shakanaaa.github.io/portofolio/">rizki</a>! <sub>リズキ</sub></h1>
+
 <p align="center">
   <a href="https://shakanaaa.github.io/portofolio/">
     <img src="assets/button-88x31.svg" alt="rizki" width="88" height="31">
   </a>
 </p>
-<h3 align="center">selamat datang di profilku :3</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1200&color=F472B6&center=true&vCenter=true&width=460&height=30&lines=Building+something+interesting.;Turning+ideas+into+code.;Creating+art+and+digital+experiences.;Always+learning+something+new." alt="Building something interesting. Turning ideas into code. Creating art and digital experiences. Always learning something new.">
 </p>
 
-<p align="center">full-stack developer, creative artist, dan penggemar anime～☆</p>
-
-<p align="center">
-  <img src="assets/sticker-cat.svg" alt="Kawaii cat sticker" width="110">
-</p>
+<p align="center"><b>full-stack developer · creative artist · anime enthusiast</b></p>
 
 <p align="center">
   <strong><a href="https://shakanaaa.github.io/portofolio/">Portfolio</a></strong> |
@@ -34,49 +30,73 @@
 
 <br>
 
-<h3 align="center">tentang aku</h3>
+### tentang aku ♡
 
-<p align="center"><i>hor hor hor~</i> ♡</p>
+<img align="right" src="assets/sticker-cat.svg" alt="Kawaii cat sticker" width="24%">
 
-<p align="center">
-  berbasis di indonesia 🇮🇩<br>
-  lagi mendalami <b>full-stack development</b><br>
-  suka menggambar &amp; digital art, karyaku ada di <a href="https://instagram.com/this_whisky69">instagram</a><br>
-  penggemar anime, daftar tontonanku ada di <a href="https://myanimelist.net/profile/Shakanaa">myanimelist</a><br>
-  terbuka untuk kolaborasi proyek menarik, chat aja ya～
-</p>
+*hor hor hor~* halo, aku rizki. developer sekaligus artist dari indonesia yang suka nonton anime, lagi sibuk mendalami full-stack development, dan senang bikin sesuatu yang kreatif～☆
 
-<br>
+- berbasis di indonesia 🇮🇩
+- lagi mendalami **full-stack development**
+- suka menggambar dan digital art, karyaku ada di [instagram](https://instagram.com/this_whisky69)
+- penggemar anime, daftar tontonanku ada di [myanimelist](https://myanimelist.net/profile/Shakanaa)
 
-<h3 align="center">proyek pilihan</h3>
+<br clear="right">
 
-<p align="center">
-  <b><a href="https://shakanaaa.github.io/portofolio/">Persona 3 Reload Portfolio</a></b><br>
-  portfolio pribadi dengan tampilan bergaya pause menu dari <i>Persona 3 Reload</i>.<br>
-  <sub>website pribadi · paling pas dibuka di desktop · <a href="https://shakanaaa.github.io/portofolio/">live demo</a></sub>
-</p>
+> [!TIP]
+> terbuka untuk kolaborasi proyek menarik, chat aja ya～
+
+### proyek pilihan ♡
+
+> **[Persona 3 Reload Portfolio](https://shakanaaa.github.io/portofolio/)**
+>
+> portfolio pribadi dengan tampilan bergaya pause menu dari *Persona 3 Reload*.
+>
+> <sub>website pribadi · paling pas dibuka di desktop · [live demo](https://shakanaaa.github.io/portofolio/)</sub>
 
 <!--
-  Tambah proyek baru dengan menyalin blok di atas, lalu isi nama, deskripsi singkat,
+  Tambah proyek baru dengan menyalin blok kutipan di atas, lalu isi nama, deskripsi singkat,
   teknologi/status, serta link repository dan live demo.
 -->
 
 <br>
 
-<h3 align="center">tech stack</h3>
+<h3 align="center">tech stack ♡</h3>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,js,php,py&perline=7" alt="Languages: C, C++, C#, Java, JavaScript, PHP, Python"><br>
-  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,angular,react,vue&perline=7" alt="Frontend: HTML, CSS, Bootstrap, Tailwind CSS, Angular, React, Vue"><br>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,laravel,nestjs,nextjs&perline=7" alt="Backend: Node.js, Express, Laravel, NestJS, Next.js"><br>
-  <img src="https://skillicons.dev/icons?i=mysql,sqlite,prisma&perline=7" alt="Database and ORM: MySQL, SQLite, Prisma"><br>
-  <img src="https://skillicons.dev/icons?i=figma,ai,ae&perline=7" alt="Design and creative tools: Figma, Adobe Illustrator, Adobe After Effects"><br>
-  <img src="https://skillicons.dev/icons?i=tensorflow,opengl,webgl,git,github&perline=7" alt="Others: TensorFlow, OpenGL, WebGL, Git, GitHub">
-</p>
+<table align="center">
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <b>languages</b><br><br>
+      <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,js,php,py&perline=4" alt="Languages: C, C++, C#, Java, JavaScript, PHP, Python">
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>frontend</b><br><br>
+      <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,angular,react,vue&perline=4" alt="Frontend: HTML, CSS, Bootstrap, Tailwind CSS, Angular, React, Vue">
+    </td>
+    <td align="center" valign="top" width="33%">
+      <b>backend</b><br><br>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,laravel,nestjs,nextjs&perline=4" alt="Backend: Node.js, Express, Laravel, NestJS, Next.js">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <b>database &amp; orm</b><br><br>
+      <img src="https://skillicons.dev/icons?i=mysql,sqlite,prisma&perline=4" alt="Database and ORM: MySQL, SQLite, Prisma">
+    </td>
+    <td align="center" valign="top">
+      <b>design &amp; creative</b><br><br>
+      <img src="https://skillicons.dev/icons?i=figma,ai,ae&perline=4" alt="Design and creative tools: Figma, Adobe Illustrator, Adobe After Effects">
+    </td>
+    <td align="center" valign="top">
+      <b>others</b><br><br>
+      <img src="https://skillicons.dev/icons?i=tensorflow,opengl,webgl,git,github&perline=4" alt="Others: TensorFlow, OpenGL, WebGL, Git, GitHub">
+    </td>
+  </tr>
+</table>
 
 <br>
 
-<h3 align="center">statistik github</h3>
+<h3 align="center">statistik github ♡</h3>
 
 <p align="center">
   <picture>
