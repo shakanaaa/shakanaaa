@@ -1,4 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 64" width="600" height="64" role="img" aria-label="Interests - 好きなもの">
-<title>Interests - 好きなもの</title>
-<rect x="1.5" y="1.5" width="597" height="61" rx="20" fill="#23102B" stroke="#FF8FC7" stroke-width="3"/><path transform="translate(40 32) scale(1.4)" fill="#FF69B4" d="M0 4 C-9 -3 -6 -10 0 -5 C6 -10 9 -3 0 4 Z"/><path transform="translate(66 32)" fill="#C4B5FD" d="M0 -7 Q1.26 -1.26 7 0 Q1.26 1.26 0 7 Q-1.26 1.26 -7 0 Q-1.26 -1.26 0 -7 Z"/><path transform="translate(560 32) scale(1.4)" fill="#FF69B4" d="M0 4 C-9 -3 -6 -10 0 -5 C6 -10 9 -3 0 4 Z"/><path transform="translate(534 32)" fill="#C4B5FD" d="M0 -7 Q1.26 -1.26 7 0 Q1.26 1.26 0 7 Q-1.26 1.26 -7 0 Q-1.26 -1.26 0 -7 Z"/><text x="300" y="40" text-anchor="end" font-family="'Segoe UI','Hiragino Sans','Noto Sans JP','Meiryo',Helvetica,Arial,sans-serif" font-size="24" font-weight="700" fill="#F5D0E6">Interests</text><text x="310" y="40" text-anchor="start" font-family="'Segoe UI','Hiragino Sans','Noto Sans JP','Meiryo',Helvetica,Arial,sans-serif" font-size="18" font-weight="500" fill="#FF8FC7">·  好きなもの</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="76" viewBox="0 0 1000 76" role="img" aria-label="INTERESTS">
+<title>INTERESTS</title>
+<rect x="2" y="2" width="996" height="72" rx="19" fill="#17121F" stroke="#503650" stroke-width="2"/>
+<path d="M34 38h250M716 38h250" stroke="#61445F" stroke-width="2" stroke-linecap="round"/>
+<path d="M106 27c-8-7-5-16 1-12 5-4 9 5-1 12z" fill="#FF8FC7"/>
+<path d="M894 27c-8-7-5-16 1-12 5-4 9 5-1 12z" fill="#FF8FC7"/>
+<text x="500" y="48" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="2" fill="#FFEAF5">INTERESTS</text>
 </svg>

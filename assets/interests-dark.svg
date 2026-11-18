@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="Interests: Anime, Digital Art, Creative Projects, and Programming">
+<title>Things I Like</title>
+<rect x="2" y="2" width="996" height="416" rx="26" fill="#15111F" stroke="#694565" stroke-width="2"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+ <g><rect x="28" y="26" width="944" height="82" rx="18" fill="#24182F" stroke="#503653"/><path d="M66 78C43 62 49 43 64 51C77 42 89 61 66 78Z" fill="#FF8FC7"/><text x="112" y="61" font-size="23" font-weight="700" fill="#FFEAF5">Anime</text><text x="112" y="88" font-size="17" fill="#CDB8D0">Penggemar anime; daftar tontonan ada di MyAnimeList.</text></g>
+ <g><rect x="28" y="124" width="944" height="82" rx="18" fill="#201A31" stroke="#4A3A61"/><path d="M66 144l6 17 17 6-17 6-6 17-6-17-17-6 17-6z" fill="#C8A7FF"/><text x="112" y="159" font-size="23" font-weight="700" fill="#FFEAF5">Digital Art</text><text x="112" y="186" font-size="17" fill="#CDB8D0">Suka menggambar dan membuat karya digital.</text></g>
+ <g><rect x="28" y="222" width="944" height="82" rx="18" fill="#24182F" stroke="#503653"/><path d="M66 274C43 258 49 239 64 247C77 238 89 257 66 274Z" fill="#FF8FC7"/><text x="112" y="257" font-size="23" font-weight="700" fill="#FFEAF5">Creative Projects</text><text x="112" y="284" font-size="17" fill="#CDB8D0">Mengubah ide menjadi karya visual dan aplikasi.</text></g>
+ <g><rect x="28" y="320" width="944" height="72" rx="18" fill="#201A31" stroke="#4A3A61"/><path d="M66 337l6 15 15 6-15 6-6 15-6-15-15-6 15-6z" fill="#C8A7FF"/><text x="112" y="353" font-size="23" font-weight="700" fill="#FFEAF5">Programming</text><text x="112" y="379" font-size="17" fill="#CDB8D0">Terus belajar dan memperdalam full-stack development.</text></g>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-label="Profile card: Rizki from Indonesia, Full-Stack Developer, interested in Digital Art, Anime, and Programming, open to collaboration">
+<title>Rizki — Profile Card</title>
+<rect x="2" y="2" width="996" height="386" rx="26" fill="#15111F" stroke="#694565" stroke-width="2"/>
+<path d="M3 90H997" stroke="#4D3454" stroke-width="1.5"/>
+<rect x="3" y="3" width="994" height="88" rx="24" fill="#21172C"/>
+<path d="M3 70v20h994V70" fill="#21172C"/>
+<text x="58" y="59" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="700" fill="#FFEAF5">PROFILE CARD</text>
+<text x="944" y="58" text-anchor="end" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600" fill="#FF8FC7">♡  リズキ</text>
+<g font-family="Segoe UI,Arial,sans-serif" font-size="23">
+ <g fill="#D8BCE0"><circle cx="68" cy="137" r="6"/><circle cx="68" cy="190" r="6"/><circle cx="68" cy="243" r="6"/><circle cx="68" cy="296" r="6"/><circle cx="68" cy="349" r="6"/></g>
+ <g fill="#B99FBE" font-weight="600"><text x="96" y="145">Name</text><text x="96" y="198">Location</text><text x="96" y="251">Role</text><text x="96" y="304">Interests</text><text x="96" y="357">Current focus</text></g>
+ <g fill="#F5E7F2" font-weight="600"><text x="390" y="145">Rizki</text><text x="390" y="198">Indonesia</text><text x="390" y="251">Full-Stack Developer</text><text x="390" y="304">Digital Art · Anime · Programming</text><text x="390" y="357">Full-Stack Development</text></g>
+</g>
+<rect x="735" y="320" width="220" height="42" rx="21" fill="#34203B" stroke="#8B557E"/>
+<text x="845" y="347" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#FF9BCB">OPEN TO COLLABORATE</text>
+<path d="M38 374H962" stroke="#5D3B5D" stroke-width="1.5" stroke-dasharray="5 10"/>
+<path d="M920 120c-8-7-5-17 1-13 4-4 9 5-1 13Z" fill="#FF80BA"/>
+</svg>
