@@ -1,11 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 31" width="88" height="31" role="img" aria-label="rizki">
-<title>rizki</title>
-<defs>
-<linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#58A6FF"/><stop offset="1" stop-color="#1F6FEB"/></linearGradient>
-</defs>
-<rect x=".5" y=".5" width="87" height="30" rx="3" fill="url(#b)" stroke="#1F6FEB"/>
-<rect x="2" y="2" width="84" height="12" rx="2" fill="#fff" opacity=".35"/>
-<path transform="translate(12 16) scale(.19)" fill="#fff" stroke="#E6EDF3" stroke-width="5" stroke-linejoin="round" d="M50 88 C10 58 6 28 28 20 C40 16 48 24 50 32 C52 24 60 16 72 20 C94 28 90 58 50 88 Z"/>
-<text x="52" y="20" text-anchor="middle" font-family="'Fira Code',Consolas,monospace" font-size="12" font-weight="700" fill="#F0F6FC">rizki</text>
-<path transform="translate(77 8)" fill="#fff" d="M0 -4 Q.7 -.7 4 0 Q.7 .7 0 4 Q-.7 .7 -4 0 Q-.7 -.7 0 -4 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="31" viewBox="0 0 88 31" role="img" aria-labelledby="t d">
+<title id="t">Portfolio Rizki</title><desc id="d">Buka portfolio Rizki</desc>
+<defs></defs>
+<rect x="0" y="0" width="88" height="31" rx="3" fill="#2F55E0"/>
+<path d="M27.9 21V13.1H30.4L30.6 14.3H30.7Q30.9 13.8 31.2 13.5Q31.5 13.2 31.9 13Q32.3 12.9 32.7 12.9Q33 12.9 33.3 12.9Q33.5 13 33.6 13.1V15.6H32.7Q32.2 15.6 31.8 15.7Q31.5 15.8 31.3 16.1Q31.1 16.3 31 16.7Q30.9 17 30.9 17.5V21ZM34.4 12.2V10.1H37.4V12.2ZM34.4 21V13.1H37.4V21ZM38.5 21V20L41.8 15.1H38.6V13.1H46V14L42.7 19H46.2V21ZM47.2 21V10.1H50.2V16.1L52.8 13.1H56.2L53.3 16.3L56.3 21H52.9L51.3 18.3L50.2 19.3V21ZM57.1 12.2V10.1H60.1V12.2ZM57.1 21V13.1H60.1V21Z" fill="#EDE6DA"/>
 </svg>

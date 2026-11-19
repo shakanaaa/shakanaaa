@@ -1,0 +1,7 @@
+{
+  "name": "profile-assets",
+  "private": true,
+  "dependencies": {
+    "@fontsource/archivo": "^5.2.0"
+  }
+}

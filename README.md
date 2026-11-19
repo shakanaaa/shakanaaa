@@ -1,142 +1,167 @@
 <!--
-  SHAKANAAA · DARK KAWAII PROFILE
+  SHAKANAAA · PROFILE
   Keep the assets folder beside this README.md.
-  GitHub does not allow custom CSS/backgrounds in README; dark panels are rendered as SVG assets.
+  GitHub strips custom CSS from READMEs, so every panel is an SVG.
+  Rebuild them with tools/build.py (see tools/README.md).
 -->
 
 <p align="center">
-  <a href="https://shakanaaa.github.io/portofolio/">
-    <img src="./assets/hero-dark.svg" width="100%" alt="Rizki — Full-Stack Developer, Creative Artist, Anime Enthusiast">
-  </a>
+  <a href="#about"><img src="./assets/nav-about.svg" height="38" alt="About"></a>
+  <a href="#work"><img src="./assets/nav-work.svg" height="38" alt="Work"></a>
+  <a href="#stack"><img src="./assets/nav-stack.svg" height="38" alt="Stack"></a>
+  <a href="#stats"><img src="./assets/nav-stats.svg" height="38" alt="Stats"></a>
+  <a href="#interests"><img src="./assets/nav-interests.svg" height="38" alt="Interests"></a>
+  <a href="#contact"><img src="./assets/nav-contact.svg" height="38" alt="Contact"></a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&pause=1400&color=BC8CFF&center=true&vCenter=true&width=620&height=34&lines=Building+something+interesting.;Turning+ideas+into+code.;Creating+art+and+digital+experiences.;Always+learning+something+new." alt="Building something interesting. Turning ideas into code. Creating art and digital experiences. Always learning something new.">
+    <a href="https://shakanaaa.github.io/portofolio/"><picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/hero.svg">
+      <img src="./assets/hero.svg" width="100%" alt="Rizki, Full-Stack Developer, Creative Artist, Anime Enthusiast. Code with curiosity, create with feeling, live with imagination.">
+    </picture></a>
+</p>
+
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/strip.svg">
+      <img src="./assets/strip.svg" width="100%" alt="Building something interesting. Turning ideas into code. Creating art and digital experiences. Always learning something new.">
+    </picture>
 </p>
 
 <p align="center">
   <a href="https://shakanaaa.github.io/portofolio/"><img src="./assets/button-88x31.svg" width="88" height="31" alt="Visit portfolio"></a>
-  &nbsp; <img src="https://komarev.com/ghpvc/?username=shakanaaa&style=flat-square&color=1F6FEB&label=PROFILE+VIEWS" alt="Profile views">
-  &nbsp; <img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=1F6FEB&label=FOLLOWERS" alt="GitHub followers">
+  &nbsp; <img src="https://komarev.com/ghpvc/?username=shakanaaa&style=flat-square&color=2F55E0&label=PROFILE+VIEWS" alt="Profile views">
+  &nbsp; <img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=2F55E0&label=FOLLOWERS" alt="GitHub followers">
 </p>
 
 <p align="center">
   <img src="https://i.ibb.co.com/fYd8sYHG/World-of-Our-Fantasy.gif" width="88%" alt="World of Our Fantasy">
 </p>
 
-<p align="center">
-  <sub>✦ &nbsp; CODE WITH CURIOSITY &nbsp; · &nbsp; CREATE WITH FEELING &nbsp; · &nbsp; LIVE WITH IMAGINATION &nbsp; ✦</sub>
-</p>
-
----
-
-<p align="center"><img src="./assets/title-about-dark.svg" width="100%" alt="About Me"></p>
-
-<p align="center"><img src="./assets/profile-card-dark.svg" width="100%" alt="Rizki profile card"></p>
-
-Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka mengeksplorasi programming, menggambar, digital art, dan anime. Saat ini aku sedang memperdalam **full-stack development** sambil terus membuat hal-hal kreatif.
-
-- 🌸 **Focus:** Full-Stack Development
-- 🎨 **Creative side:** Drawing & Digital Art
-- 🍥 **Off-screen world:** Anime
-- 💌 **Collaboration:** Open to interesting projects
-
-<p align="center"><sub>hor hor hor~ thanks for stopping by ♡</sub></p>
-
-
-
-<p align="center"><img src="./assets/title-projects-dark.svg" width="100%" alt="Featured Projects"></p>
+<a id="about"></a>
 
 <p align="center">
-  <a href="https://shakanaaa.github.io/portofolio/">
-    <img src="./assets/project-card-dark.svg" width="100%" alt="Persona 3 Reload Portfolio — open live demo">
-  </a>
-</p>
-
-<p align="center"><sub>More little creations will be added here as they grow~</sub></p>
-
-
-
-<p align="center"><img src="./assets/title-tech-dark.svg" width="100%" alt="Tech Stack"></p>
-
-<table align="center" width="100%">
-  <tr>
-    <td align="center" valign="top" width="50%">
-      <b>🌷 LANGUAGES</b><br><br>
-      <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,js,php,py&perline=4&theme=dark" alt="C, C++, C sharp, Java, JavaScript, PHP, Python">
-    </td>
-    <td align="center" valign="top" width="50%">
-      <b>🎀 FRONTEND</b><br><br>
-      <img src="https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,angular,react,vue&perline=4&theme=dark" alt="HTML, CSS, Bootstrap, Tailwind CSS, Angular, React, Vue">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <br><b>🍓 BACKEND</b><br><br>
-      <img src="https://skillicons.dev/icons?i=nodejs,express,laravel,nestjs,nextjs&perline=4&theme=dark" alt="Node.js, Express, Laravel, NestJS, Next.js">
-    </td>
-    <td align="center" valign="top">
-      <br><b>🍰 DATABASE &amp; ORM</b><br><br>
-      <img src="https://skillicons.dev/icons?i=mysql,sqlite,prisma&perline=4&theme=dark" alt="MySQL, SQLite, Prisma">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <br><b>🖌️ DESIGN &amp; CREATIVE</b><br><br>
-      <img src="https://skillicons.dev/icons?i=figma,ai,ae&perline=4&theme=dark" alt="Figma, Adobe Illustrator, Adobe After Effects">
-    </td>
-    <td align="center" valign="top">
-      <br><b>✨ OTHERS</b><br><br>
-      <img src="https://skillicons.dev/icons?i=tensorflow,opengl,webgl,git,github&perline=4&theme=dark" alt="TensorFlow, OpenGL, WebGL, Git, GitHub">
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character separator"><br>
-  <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
-</p>
-
-<p align="center"><img src="./assets/title-stats-dark.svg" width="100%" alt="GitHub Stats"></p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shakanaaa&show_icons=true&hide_border=true&bg_color=0D1117&title_color=BC8CFF&text_color=E6EDF3&icon_color=79C0FF&ring_color=BC8CFF&border_radius=18" width="49%" alt="GitHub stats of shakanaaa">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&layout=compact&hide_border=true&bg_color=0D1117&title_color=BC8CFF&text_color=E6EDF3&border_radius=18" width="49%" alt="Most used programming languages of shakanaaa">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/sec-about.svg">
+      <img src="./assets/sec-about.svg" width="100%" alt="01 About">
+    </picture>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=shakanaaa&hide_border=true&background=0D1117&ring=BC8CFF&fire=BC8CFF&currStreakLabel=79C0FF&sideLabels=79C0FF&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=6E7681&border_radius=18" width="82%" alt="Contribution streak of shakanaaa">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/about.svg">
+      <img src="./assets/about.svg" width="100%" alt="Halo, aku Rizki. Developer sekaligus artist dari Indonesia. Fokus pada full-stack development, menggambar dan digital art, penggemar anime, terbuka untuk proyek menarik.">
+    </picture>
+</p>
+
+<a id="work"></a>
+
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/sec-work.svg">
+      <img src="./assets/sec-work.svg" width="100%" alt="02 Work">
+    </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakanaaa&hide_border=true&bg_color=0D1117&color=E6EDF3&line=BC8CFF&point=79C0FF&area=true&area_color=30363D&title_color=BC8CFF" width="100%" alt="GitHub contribution activity graph of shakanaaa">
+    <a href="https://shakanaaa.github.io/portofolio/"><picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/work.svg">
+      <img src="./assets/work.svg" width="100%" alt="Featured project 01: Persona 3 Reload Portfolio, a personal website inspired by the pause menu of Persona 3 Reload. Open live demo.">
+    </picture></a>
 </p>
 
-
-<p align="center"><img src="./assets/title-interests-dark.svg" width="100%" alt="Interests"></p>
-
-<p align="center"><img src="./assets/interests-dark.svg" width="100%" alt="Anime, Digital Art, Creative Projects, and Programming"></p>
+<a id="stack"></a>
 
 <p align="center">
-  <a href="https://instagram.com/this_whisky69"><img src="https://img.shields.io/badge/ART%20GALLERY-Instagram-8250DF?style=flat-square&logo=instagram&logoColor=white" alt="Instagram art gallery"></a>
-  <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/ANIME%20LIST-MyAnimeList-1F6FEB?style=flat-square&logo=myanimelist&logoColor=white" alt="MyAnimeList profile"></a>
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/sec-stack.svg">
+      <img src="./assets/sec-stack.svg" width="100%" alt="03 Stack">
+    </picture>
 </p>
-
-
-<p align="center"><img src="./assets/title-contact-dark.svg" width="100%" alt="Find Me"></p>
 
 <p align="center">
-  <a href="https://discord.gg/vNMPTWY9s"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://instagram.com/this_whisky69"><img src="https://img.shields.io/badge/Instagram-8250DF?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="https://tiktok.com/@ryynx20"><img src="https://img.shields.io/badge/TikTok-30363D?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
-  <a href="https://x.com/ThisRizky699"><img src="https://img.shields.io/badge/X-30363D?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
-  <a href="mailto:rizkyclip69@gmail.com"><img src="https://img.shields.io/badge/Email-8250DF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://myanimelist.net/profile/Shakanaa"><img src="https://img.shields.io/badge/MyAnimeList-1F6FEB?style=for-the-badge&logo=myanimelist&logoColor=white" alt="MyAnimeList"></a>
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/stack.svg">
+      <img src="./assets/stack.svg" width="100%" alt="Languages: C, C++, C#, Java, JavaScript, PHP, Python. Frontend: HTML, CSS, Bootstrap, Tailwind CSS, Angular, React, Vue. Backend: Node.js, Express, Laravel, NestJS, Next.js. Database and ORM: MySQL, SQLite, Prisma. Design and creative: Figma, Illustrator, After Effects. Others: TensorFlow, OpenGL, WebGL, Git, GitHub.">
+    </picture>
 </p>
 
-<p align="center"><img src="./assets/sticker-bow-3d.svg" width="76" alt="Pink 3D bow sticker"></p>
+<a id="stats"></a>
 
-<p align="center"><img src="./assets/closing-dark.svg" width="100%" alt="Thanks for visiting. Arigatou gozaimasu. Mata ne."></p>
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/sec-stats.svg">
+      <img src="./assets/sec-stats.svg" width="100%" alt="04 Stats">
+    </picture>
+</p>
 
-<p align="center"><sub>🌙  MADE WITH CODE, CREATIVITY, AND A LITTLE BIT OF KAWAII MAGIC  ♡</sub></p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shakanaaa&show_icons=true&hide_border=true&bg_color=0B0B0E&title_color=8FA8FF&text_color=EDE6DA&icon_color=F2A65A&ring_color=5C85FF&border_radius=6" width="430" alt="GitHub stats of shakanaaa">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&layout=compact&hide_border=true&bg_color=0B0B0E&title_color=8FA8FF&text_color=EDE6DA&border_radius=6" width="430" alt="Most used programming languages of shakanaaa">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shakanaaa&hide_border=true&background=0B0B0E&ring=5C85FF&fire=F2A65A&currStreakLabel=8FA8FF&sideLabels=8FA8FF&currStreakNum=EDE6DA&sideNums=EDE6DA&dates=8D8A84&border_radius=6" width="640" alt="Contribution streak of shakanaaa">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakanaaa&hide_border=true&bg_color=0B0B0E&color=EDE6DA&line=5C85FF&point=F2A65A&area=true&area_color=2F55E0&title_color=8FA8FF" width="100%" alt="GitHub contribution activity graph of shakanaaa">
+</p>
+
+<a id="interests"></a>
+
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/sec-interests.svg">
+      <img src="./assets/sec-interests.svg" width="100%" alt="05 Interests">
+    </picture>
+</p>
+
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/interests.svg">
+      <img src="./assets/interests.svg" width="100%" alt="Anime: penggemar anime, daftar tontonan ada di MyAnimeList. Digital Art: suka menggambar dan membuat karya digital. Creative Projects: mengubah ide menjadi karya visual dan aplikasi. Programming: terus belajar dan memperdalam full-stack development.">
+    </picture>
+</p>
+
+<p align="center">
+  <a href="https://instagram.com/this_whisky69"><img src="./assets/chip-art-gallery.svg" width="280" height="64" alt="Art gallery on Instagram"></a>
+  <a href="https://myanimelist.net/profile/Shakanaa"><img src="./assets/chip-anime-list.svg" width="280" height="64" alt="Anime list on MyAnimeList"></a>
+</p>
+
+<a id="contact"></a>
+
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/sec-contact.svg">
+      <img src="./assets/sec-contact.svg" width="100%" alt="06 Contact">
+    </picture>
+</p>
+
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/chat.svg">
+      <img src="./assets/chat.svg" width="100%" alt="Say hi. Pengunjung: Open to interesting projects? Rizki: Yes. Pick a channel below. Pengunjung: Art or code? Rizki: Both.">
+    </picture>
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/vNMPTWY9s"><img src="./assets/chip-discord.svg" width="280" height="64" alt="Discord server invite"></a>
+  <a href="https://instagram.com/this_whisky69"><img src="./assets/chip-instagram.svg" width="280" height="64" alt="Instagram @this_whisky69"></a>
+  <a href="https://tiktok.com/@ryynx20"><img src="./assets/chip-tiktok.svg" width="280" height="64" alt="TikTok @ryynx20"></a>
+  <a href="https://x.com/ThisRizky699"><img src="./assets/chip-x.svg" width="280" height="64" alt="X @ThisRizky699"></a>
+  <a href="mailto:rizkyclip69@gmail.com"><img src="./assets/chip-email.svg" width="280" height="64" alt="Email rizkyclip69@gmail.com"></a>
+  <a href="https://myanimelist.net/profile/Shakanaa"><img src="./assets/chip-mal.svg" width="280" height="64" alt="MyAnimeList Shakanaa"></a>
+</p>
+
+<p align="center">
+  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" width="140" alt="Yui character">
+</p>
+
+<p align="center">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/m/footer.svg">
+      <img src="./assets/footer.svg" width="100%" alt="Thanks for visiting my little corner of GitHub. Arigatou gozaimasu. Mata ne. Kalau kamu suka karya dan proyekku, beri star untuk repo ini ya.">
+    </picture>
+</p>
+
