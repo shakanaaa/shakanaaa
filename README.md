@@ -70,7 +70,9 @@
     </picture></a>
 </p>
 
-<a id="stack"></a>
+<a id="stack"><p align="center">
+  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character">
+</p></a>
 
 <p align="center">
     <picture>
@@ -154,9 +156,7 @@
   <a href="https://myanimelist.net/profile/Shakanaa"><img src="./assets/chip-mal.svg" width="280" height="64" alt="MyAnimeList Shakanaa"></a>
 </p>
 
-<p align="center">
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" width="140" alt="Yui character">
-</p>
+
 
 <p align="center">
     <picture>
