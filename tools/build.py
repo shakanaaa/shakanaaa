@@ -9,6 +9,8 @@ DOCS = []
 
 
 def save(doc, mob):
+    if doc.name in MERGED:
+        doc = head_into(doc, MERGED[doc.name], mob)
     path = "%s/%s%s.svg" % (OUT, "m/" if mob else "", doc.name)
     open(path, "w", encoding="utf-8").write(doc.svg())
     DOCS.append(path)
@@ -131,22 +133,43 @@ HEADS = [("01", "About", "自己紹介", "about"), ("02", "Work", "作品", "wor
          ("04", "Stats", "統計", "stats"), ("05", "Interests", "興味", "interests"), ("06", "Contact", "連絡", "contact")]
 
 
-def header(num, title, jp, name, mob):
-    W, H, M = (480, 92, 20) if mob else (1000, 126, 32)
-    d = Doc("sec-" + name, W, H, "%s %s" % (num, title), "Judul bagian %s" % title)
-    s = 36 if mob else 44
-    ty = H / 2 - s / 2
+def draw_header(d, num, title, jp, mob, H):
+    W, M = d.w, (20 if mob else 32)
+    s = 34 if mob else 40
+    ty = H / 2 - s / 2 + (2 if mob else 4)
     d.rect(M, ty, s, s, BLUE, 3)
-    d.text(num, M + s / 2, ty + s / 2 + (6 if mob else 7), 16 if mob else 19, "800", BONE, 0, "m")
-    fs = 46 if mob else 76
-    tx = M + s + (14 if mob else 20)
+    d.text(num, M + s / 2, ty + s / 2 + (6 if mob else 7), 16 if mob else 18, "800", BONE, 0, "m")
+    fs = 40 if mob else 58
+    tx = M + s + (14 if mob else 18)
     tw = d.text(title, tx, ty + s / 2 + cap_px(fs) / 2, fs, "900", BONE, -0.03)
-    jw = measure(jp, 18 if mob else 24, "800")
-    d.text(jp, W - M, ty + s / 2 + (7 if mob else 9), 18 if mob else 24, "800", MUTE, 0, "e")
+    jw = measure(jp, 18 if mob else 22, "800")
+    d.text(jp, W - M, ty + s / 2 + (7 if mob else 8), 18 if mob else 22, "800", MUTE, 0, "e")
     lx1, lx2 = tx + tw + 20, W - M - jw - 20
     if lx2 - lx1 > 24:
         d.hline(lx1, lx2, ty + s / 2, LINE, 2)
+
+
+def head_into(inner, key, mob):
+    num, title, jp = MERGED_HEADS[key]
+    hh = 84 if mob else 112
+    d = Doc(inner.name, inner.w, inner.h + hh, inner.title, inner.desc)
+    draw_header(d, num, title, jp, mob, hh)
+    d.defs = inner.defs
+    d.add('<g transform="translate(0,%d)">' % hh)
+    d.body.extend(inner.body[1:])
+    d.add("</g>")
+    return d
+
+
+def header(num, title, jp, name, mob):
+    d = Doc("sec-" + name, 480 if mob else 1000, 84 if mob else 112, "%s %s" % (num, title), "Judul bagian %s" % title)
+    draw_header(d, num, title, jp, mob, d.h)
     save(d, mob)
+
+
+MERGED = {"about": "about", "work": "work", "stack": "stack", "interests": "interests", "chat": "contact"}
+MERGED_HEADS = {"about": ("01", "About", "自己紹介"), "work": ("02", "Work", "作品"), "stack": ("03", "Stack", "技術"),
+                "interests": ("05", "Interests", "興味"), "contact": ("06", "Contact", "連絡")}
 
 
 def about(mob):
@@ -335,24 +358,25 @@ def interests(mob):
     if not mob:
         W, M = 1000, 32
         d = Doc("interests", W, 460, "Minat", alt)
-        d.defs.append('<clipPath id="blk"><path d="M0.5 0.5H340L400 60V459.5H0.5Z"/></clipPath>')
-        d.add('<g clip-path="url(#blk)"><rect x="0" y="0" width="400" height="460" fill="%s"/>' % BLUE)
-        d.add(halftone(0, 336, 400, 460, 12, lambda u, v: clamp((v + 0.1) / 1.1) * clamp(0.4 + u * 0.8), INK))
-        d.add(halftone(0, 336, 400, 460, 12, lambda u, v: clamp((u - 0.35) / 0.65) * clamp((0.9 - v) / 0.9) * 0.95, AMBER))
+        d.defs.append('<clipPath id="blk"><path d="M999.5 0.5H660L600 60V459.5H999.5Z"/></clipPath>')
+        d.add('<g clip-path="url(#blk)"><rect x="600" y="0" width="400" height="460" fill="%s"/>' % BLUE)
+        d.add(halftone(600, 336, 1000, 460, 12, lambda u, v: clamp((v + 0.1) / 1.1) * clamp(1.2 - u * 0.8), INK))
+        d.add(halftone(600, 336, 1000, 460, 12, lambda u, v: clamp((0.65 - u) / 0.65) * clamp((0.9 - v) / 0.9) * 0.95, AMBER))
         d.add("</g>")
-        label(d, "Main / 01", M, 62, 12, BONE)
-        d.text("Digital", M, 150, 62, "900", BONE, -0.03)
-        d.text("Art", M, 212, 62, "900", BONE, -0.03)
-        d.lines(wrap(INT[1][1], 18, 300, "600"), M, 256, 18, 26, "600", BONE)
-        rx = 450
+        bx = 632
+        label(d, "Main / 01", bx, 62, 12, BONE)
+        d.text("Digital", bx, 150, 62, "900", BONE, -0.03)
+        d.text("Art", bx, 212, 62, "900", BONE, -0.03)
+        d.lines(wrap(INT[1][1], 18, 300, "600"), bx, 256, 18, 26, "600", BONE)
+        rx = M
         y = 40
         for i, (k, v) in enumerate([INT[0], INT[2], INT[3]]):
-            d.hline(rx, W - M, y, LINE)
+            d.hline(rx, 560, y, LINE)
             d.text("0%d" % (i + 2), rx, y + 46, 12, "800", BLUE_TXT, 0.06)
             d.text(k, rx + 40, y + 52, 40, "800", BONE, -0.02)
-            d.lines(wrap(v, 17, W - M - rx - 40, "500"), rx + 40, y + 86, 17, 25, "500", SOFT)
+            d.lines(wrap(v, 17, 560 - rx - 40, "500"), rx + 40, y + 86, 17, 25, "500", SOFT)
             y += 136
-        d.hline(rx, W - M, y, LINE)
+        d.hline(rx, 560, y, LINE)
     else:
         W, M = 480, 20
         d = Doc("interests", W, 560, "Minat", alt)
@@ -476,8 +500,7 @@ if __name__ == "__main__":
         nav_chip(t, n.lower())
     for mob in (False, True):
         hero(mob); strip(mob); about(mob); work(mob); stack(mob); interests(mob); chat(mob); footer(mob)
-        for num, t, jp, n in HEADS:
-            header(num, t, jp, n, mob)
+        header("04", "Stats", "統計", "stats", mob)
     for c in CHIPS:
         chip(*c)
     button()

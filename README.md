@@ -42,26 +42,12 @@
 
 <p align="center">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/m/sec-about.svg">
-      <img src="./assets/sec-about.svg" width="100%" alt="01 About">
-    </picture>
-</p>
-
-<p align="center">
-    <picture>
       <source media="(max-width: 600px)" srcset="./assets/m/about.svg">
       <img src="./assets/about.svg" width="100%" alt="Halo, aku Rizki. Developer sekaligus artist dari Indonesia. Fokus pada full-stack development, menggambar dan digital art, penggemar anime, terbuka untuk proyek menarik.">
     </picture>
 </p>
 
 <a id="work"></a>
-
-<p align="center">
-    <picture>
-      <source media="(max-width: 600px)" srcset="./assets/m/sec-work.svg">
-      <img src="./assets/sec-work.svg" width="100%" alt="02 Work">
-    </picture>
-</p>
 
 <p align="center">
     <a href="https://shakanaaa.github.io/portofolio/"><picture>
@@ -73,13 +59,6 @@
 <a id="stack"><p align="center">
   <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png" alt="Yui character">
 </p></a>
-
-<p align="center">
-    <picture>
-      <source media="(max-width: 600px)" srcset="./assets/m/sec-stack.svg">
-      <img src="./assets/sec-stack.svg" width="100%" alt="03 Stack">
-    </picture>
-</p>
 
 <p align="center">
     <picture>
@@ -114,13 +93,6 @@
 
 <p align="center">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/m/sec-interests.svg">
-      <img src="./assets/sec-interests.svg" width="100%" alt="05 Interests">
-    </picture>
-</p>
-
-<p align="center">
-    <picture>
       <source media="(max-width: 600px)" srcset="./assets/m/interests.svg">
       <img src="./assets/interests.svg" width="100%" alt="Anime: penggemar anime, daftar tontonan ada di MyAnimeList. Digital Art: suka menggambar dan membuat karya digital. Creative Projects: mengubah ide menjadi karya visual dan aplikasi. Programming: terus belajar dan memperdalam full-stack development.">
     </picture>
@@ -132,13 +104,6 @@
 </p>
 
 <a id="contact"></a>
-
-<p align="center">
-    <picture>
-      <source media="(max-width: 600px)" srcset="./assets/m/sec-contact.svg">
-      <img src="./assets/sec-contact.svg" width="100%" alt="06 Contact">
-    </picture>
-</p>
 
 <p align="center">
     <picture>
@@ -156,12 +121,9 @@
   <a href="https://myanimelist.net/profile/Shakanaa"><img src="./assets/chip-mal.svg" width="280" height="64" alt="MyAnimeList Shakanaa"></a>
 </p>
 
-
-
 <p align="center">
     <picture>
       <source media="(max-width: 600px)" srcset="./assets/m/footer.svg">
       <img src="./assets/footer.svg" width="100%" alt="Thanks for visiting my little corner of GitHub. Arigatou gozaimasu. Mata ne. Kalau kamu suka karya dan proyekku, beri star untuk repo ini ya.">
     </picture>
 </p>
-
