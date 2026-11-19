@@ -113,11 +113,6 @@ Halo, aku **Rizki** — developer sekaligus artist dari Indonesia. Aku suka meng
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakanaaa&hide_border=true&bg_color=0D1117&color=E6EDF3&line=BC8CFF&point=79C0FF&area=true&area_color=30363D&title_color=BC8CFF" width="100%" alt="GitHub contribution activity graph of shakanaaa">
 </p>
 
-<p align="center">
-  <sub>✦ ─────────────────── ♡ ─────────────────── ✦</sub><br>
-  <img src="https://i.ibb.co.com/DDb4fR4K/Yui-removebg-preview-1.png"  alt="Yui character separator"><br>
-  <sub>♡ ─────────────────── ✦ ─────────────────── ♡</sub>
-</p>
 
 <p align="center"><img src="./assets/title-interests-dark.svg" width="100%" alt="Interests"></p>
 
