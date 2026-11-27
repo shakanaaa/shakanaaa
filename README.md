@@ -3,17 +3,15 @@
   Keep the assets folder beside this README.md.
   GitHub strips custom CSS from READMEs, so every panel is an SVG.
   Rebuild them with tools/build.py (see tools/README.md).
-  Palette: paper #FFFFFF, ink #1B1B1F, blue #1E50D0, peach #FFDCC4, orange #F2A33A.
 -->
 
 <p align="center">
-  <a href="https://shakanaaa.github.io/portofolio/"><img src="./assets/nav-home.svg" height="44" alt="Portfolio"></a>
-  <a href="#about"><img src="./assets/nav-about.svg" height="44" alt="About"></a>
-  <a href="#work"><img src="./assets/nav-work.svg" height="44" alt="Work"></a>
-  <a href="#stack"><img src="./assets/nav-stack.svg" height="44" alt="Stack"></a>
-  <a href="#stats"><img src="./assets/nav-stats.svg" height="44" alt="Stats"></a>
-  <a href="#interests"><img src="./assets/nav-interests.svg" height="44" alt="Interests"></a>
-  <a href="#contact"><img src="./assets/nav-contact.svg" height="44" alt="Contact"></a>
+  <a href="#about"><img src="./assets/nav-about.svg" height="38" alt="About"></a>
+  <a href="#work"><img src="./assets/nav-work.svg" height="38" alt="Work"></a>
+  <a href="#stack"><img src="./assets/nav-stack.svg" height="38" alt="Stack"></a>
+  <a href="#stats"><img src="./assets/nav-stats.svg" height="38" alt="Stats"></a>
+  <a href="#interests"><img src="./assets/nav-interests.svg" height="38" alt="Interests"></a>
+  <a href="#contact"><img src="./assets/nav-contact.svg" height="38" alt="Contact"></a>
 </p>
 
 <p align="center">
@@ -32,8 +30,8 @@
 
 <p align="center">
   <a href="https://shakanaaa.github.io/portofolio/"><img src="./assets/button-88x31.svg" width="88" height="31" alt="Visit portfolio"></a>
-  &nbsp; <img src="https://komarev.com/ghpvc/?username=shakanaaa&style=flat-square&color=1E50D0&label=PROFILE+VIEWS" alt="Profile views">
-  &nbsp; <img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=1E50D0&label=FOLLOWERS" alt="GitHub followers">
+  &nbsp; <img src="https://komarev.com/ghpvc/?username=shakanaaa&style=flat-square&color=2F55E0&label=PROFILE+VIEWS" alt="Profile views">
+  &nbsp; <img src="https://img.shields.io/github/followers/shakanaaa?style=flat-square&color=2F55E0&label=FOLLOWERS" alt="GitHub followers">
 </p>
 
 <p align="center">
@@ -79,16 +77,16 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shakanaaa&show_icons=true&hide_border=true&bg_color=FFFFFF&title_color=1E50D0&text_color=1B1B1F&icon_color=F2A33A&ring_color=1E50D0&border_radius=6" width="430" alt="GitHub stats of shakanaaa">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&layout=compact&hide_border=true&bg_color=FFFFFF&title_color=1E50D0&text_color=1B1B1F&border_radius=6" width="430" alt="Most used programming languages of shakanaaa">
+  <img src="https://github-readme-stats.vercel.app/api?username=shakanaaa&show_icons=true&hide_border=true&bg_color=0B0B0E&title_color=8FA8FF&text_color=EDE6DA&icon_color=F2A65A&ring_color=5C85FF&border_radius=6" width="430" alt="GitHub stats of shakanaaa">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakanaaa&layout=compact&hide_border=true&bg_color=0B0B0E&title_color=8FA8FF&text_color=EDE6DA&border_radius=6" width="430" alt="Most used programming languages of shakanaaa">
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=shakanaaa&hide_border=true&background=FFFFFF&ring=1E50D0&fire=F2A33A&currStreakLabel=1E50D0&sideLabels=1E50D0&currStreakNum=1B1B1F&sideNums=1B1B1F&dates=5B5E66&border_radius=6" width="640" alt="Contribution streak of shakanaaa">
+  <img src="https://streak-stats.demolab.com?user=shakanaaa&hide_border=true&background=0B0B0E&ring=5C85FF&fire=F2A65A&currStreakLabel=8FA8FF&sideLabels=8FA8FF&currStreakNum=EDE6DA&sideNums=EDE6DA&dates=8D8A84&border_radius=6" width="640" alt="Contribution streak of shakanaaa">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakanaaa&hide_border=true&bg_color=FFFFFF&color=1B1B1F&line=1E50D0&point=F2A33A&area=true&area_color=1E50D0&title_color=1E50D0" width="100%" alt="GitHub contribution activity graph of shakanaaa">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakanaaa&hide_border=true&bg_color=0B0B0E&color=EDE6DA&line=5C85FF&point=F2A65A&area=true&area_color=2F55E0&title_color=8FA8FF" width="100%" alt="GitHub contribution activity graph of shakanaaa">
 </p>
 
 <a id="interests"></a>
