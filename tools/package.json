@@ -1,7 +1,5 @@
 {
   "name": "profile-assets",
   "private": true,
-  "dependencies": {
-    "@fontsource/archivo": "^5.2.0"
-  }
+  "description": "Panel generator for the profile README. Python only, see README.md."
 }
