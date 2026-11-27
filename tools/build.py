@@ -39,15 +39,11 @@ def nav_chip(text, name):
 ART = os.path.join(os.path.dirname(os.path.abspath(__file__)), "art", "wallhaven-ml2j69.jpg")
 
 
-def photo_uri(y0, w, h, scale=2, quality=86):
-    """The artwork in its original colours: full width, cropped vertically to the w:h ratio."""
+def photo_uri(box, w, h, scale=2, quality=86):
+    """The artwork in its original colours, cropped to `box` (source pixels) and resized to w x h."""
     from PIL import Image
     import base64, io
-    im = Image.open(ART).convert("RGB")
-    sw, sh = im.size
-    ch = min(sh, round(sw * h / w))
-    y0 = max(0, min(y0, sh - ch))
-    im = im.crop((0, y0, sw, y0 + ch)).resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+    im = Image.open(ART).convert("RGB").crop(box).resize((int(w * scale), int(h * scale)), Image.LANCZOS)
     buf = io.BytesIO()
     im.save(buf, "JPEG", quality=quality, optimize=True, progressive=True)
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode("ascii")
@@ -72,104 +68,176 @@ def slashes(d, x, y, h):
               % (_n(xx + lean), _n(y), _n(xx + lean + w), _n(xx + w), _n(y + h), _n(xx), fill))
 
 
+def arch(x0, w, y, b, r=None):
+    """Flat-bottomed arch: semicircle top, straight sides. r defaults to w / 2."""
+    r = w / 2 if r is None else r
+    return "M%s %sV%sA%s %s 0 0 1 %s %sV%sZ" % (_n(x0), _n(b), _n(y + r), _n(r), _n(r), _n(x0 + w), _n(y + r), _n(b))
+
+
+def bubble(d, side, text, x_edge, y, fs, r, h):
+    w = measure(text, fs, "700") + fs * 2
+    if side == "r":
+        x = x_edge - 2 * r - 10 - w
+        ax = x_edge - r
+        d.rect(x, y, w, h, BLUE, h / 3)
+        d.text(text, x + fs, y + h / 2 + fs * 0.35, fs, "700", BONE)
+        d.add('<circle cx="%s" cy="%s" r="%s" fill="%s"/>' % (_n(ax), _n(y + h / 2), r, BONE))
+        d.text("V", ax, y + h / 2 + r * 0.34, r * 0.95, "800", INK, 0, "m")
+    else:
+        x = x_edge + 2 * r + 10
+        ax = x_edge + r
+        d.rect(x + 0.5, y + 0.5, w, h, INK2, h / 3, LINE)
+        d.text(text, x + fs, y + h / 2 + fs * 0.35, fs, "700", BONE)
+        d.add('<circle cx="%s" cy="%s" r="%s" fill="%s"/>' % (_n(ax), _n(y + h / 2), r, BLUE))
+        d.text("R", ax, y + h / 2 + r * 0.34, r * 0.95, "800", BONE, 0, "m")
+
+
+MSGS = [("r", "Open to interesting projects?"), ("l", "Yes. Pick a channel below."), ("r", "Art or code?"), ("l", "Both.")]
+PRINCIPLES = (("Code", "with curiosity"), ("Create", "with feeling"), ("Live", "with imagination"))
+SEGS = (BLUE, BLUE_HI, AMBER)
+FACTS = (("Focus", "Full-stack development"), ("Creative", "Drawing & digital art"), ("Off-screen", "Anime"))
+JP = ["好奇心でコードを書き、", "感情で創り、", "想像力で生きる。"]
+
+
 def hero(mob):
     W = 480 if mob else 1000
     M = 20 if mob else 32
     cw = W - 2 * M
-    bar_y, bar_h = 24, (52 if mob else 56)
-    art_y = bar_y + bar_h + (22 if mob else 28)
-    art_h = round(cw / 2.2) if mob else 380
+    top_y, top_h = (20, 40) if mob else (24, 44)
+    box_y = top_y + top_h + (18 if mob else 22)
+    box_h = 112 if mob else 100
+    art_y = box_y + box_h + (22 if mob else 26)
+    art_h = 160 if mob else 300
     art_b = art_y + art_h
-    my = art_b + (36 if mob else 40)
+    iy = art_b + (30 if mob else 36)
     if mob:
-        slab_y = my + 118 + 4 * 50 + 30 + 3 * 26 - 8
-        slab_h = 96
+        info_h = 112 + 3 * 46 + 22 + 3 * 24 + 8 + 56 + 4 * 46 + 28
     else:
-        slab_y = my + 190 + 34
-        slab_h = 112
+        info_h = 262
+    slab_y = iy + info_h + (24 if mob else 28)
+    slab_h = 96 if mob else 108
     H = round(slab_y + slab_h + 28)
     d = Doc("hero", W, H, "Rizki, developer dan artist dari Indonesia",
-            "Ilustrasi karakter berambut panjang dengan jubah hijau gelap menunjuk ke arah pembaca, dengan nama RIZKI di pojok kiri atas. Rizki, Full-Stack Developer dan Digital Artist dari Indonesia, terbuka untuk proyek menarik. Code with curiosity, create with feeling, live with imagination.")
+            "Ilustrasi karakter berambut panjang dengan jubah hijau gelap menunjuk ke arah pembaca, dipotong menjadi tiga bentuk bulat besar. Rizki, Full-Stack Developer dan Digital Artist dari Indonesia, terbuka untuk proyek menarik. Code with curiosity, create with feeling, live with imagination.")
 
-    # top bar: logo + status box
-    d.rect(M, bar_y, bar_h, bar_h, BLUE, 8)
-    d.text("R", M + bar_h / 2, bar_y + bar_h / 2 + (11 if mob else 12), 32 if mob else 34, "900", BONE, 0, "m")
-    bx = M + bar_h + 14
-    d.rect(bx + 0.75, bar_y + 0.75, W - M - bx - 1.5, bar_h - 1.5, "none", 10, BONE, 1.5)
+    # ---- top bar: logo, menu, status
+    d.rect(M, top_y, top_h, top_h, BLUE, 8)
+    d.text("R", M + top_h / 2, top_y + top_h / 2 + (9 if mob else 10), 26 if mob else 28, "900", BONE, 0, "m")
+    mx = M + top_h + (18 if mob else 30)
+    fs = 14 if mob else 16
+    for i, (v, _) in enumerate(PRINCIPLES):
+        wgt = "800" if i == 1 else "500"
+        w = d.text(v, mx, top_y + top_h / 2 + fs * 0.35, fs, wgt, BONE if i == 1 else SOFT)
+        mx += w + (16 if mob else 30)
     if not mob:
-        d.add('<circle cx="%s" cy="%s" r="6" fill="%s"/>' % (bx + 26, bar_y + 29, AMBER))
-        label(d, "Collab", bx + 44, bar_y + 22, 12, MUTE)
-        d.text("Open to interesting projects", bx + 44, bar_y + 44, 18, "700", BONE)
-        c2 = M + 660
-        d.rect(c2 - 24, bar_y + 12, 1.5, bar_h - 24, LINE)
-        label(d, "Base", c2, bar_y + 22, 12, MUTE)
-        d.rect(c2, bar_y + 29, 34, 20, BLUE, 3)
-        d.text("ID", c2 + 17, bar_y + 44, 12, "800", BONE, 0.04, "m")
-        d.text("Indonesia", c2 + 46, bar_y + 45, 18, "700", BONE)
+        t = "Open to interesting projects"
+        pw = measure(t, 15, "700") + 58
+        px = W - M - pw
+        d.rect(px + 0.75, top_y + 0.75, pw - 1.5, top_h - 1.5, INK2, 10, BONE, 1.5)
+        d.add('<circle cx="%s" cy="%s" r="6" fill="%s"/>' % (_n(px + 22), top_y + top_h / 2, AMBER))
+        d.text(t, px + 38, top_y + top_h / 2 + 5.5, 15, "700", BONE)
+
+    # ---- status box with segmented bar
+    d.rect(M + 0.75, box_y + 0.75, cw - 1.5, box_h - 1.5, "none", 12, BONE, 1.5)
+    px0 = M + (18 if mob else 24)
+    pw_ = cw - 2 * (18 if mob else 24)
+    label(d, "Now", px0, box_y + 28, 12, MUTE)
+    d.text("Deepening full-stack development", px0 + 46, box_y + 29, 15 if mob else 18, "700", BONE)
+    if not mob:
+        iw = measure("Indonesia", 18, "700")
+        tx = W - M - 24 - iw - 10 - 34
+        d.text("Indonesia", W - M - 24, box_y + 29, 18, "700", BONE, 0, "e")
+        d.rect(tx, box_y + 12, 34, 20, BLUE, 3)
+        d.text("ID", tx + 17, box_y + 27, 12, "800", BONE, 0.04, "m")
+        label(d, "Base", tx - 14, box_y + 28, 12, MUTE, "e")
+    gap = 8
+    sw = (pw_ - 2 * gap) / 3
+    for i, (v, p) in enumerate(PRINCIPLES):
+        x = px0 + i * (sw + gap)
+        d.rect(x, box_y + 44, sw, 10, SEGS[i], 5)
+        if mob:
+            d.text(v, x, box_y + 78, 14, "800", BONE)
+            d.text(p, x, box_y + 96, 12, "500", SOFT)
+        else:
+            wv = d.text(v, x, box_y + 82, 15, "800", BONE)
+            d.text(p, x + wv + 7, box_y + 82, 15, "500", SOFT)
+
+    # ---- artwork in three arches
+    if mob:
+        aw = (cw + 20) / 3
+        arches = [arch(M + i * (aw - 10), aw, art_y, art_b) for i in range(3)]
+        box = (0, 150, 1860, 150 + round(1860 * art_h / cw))
     else:
-        d.add('<circle cx="%s" cy="%s" r="5" fill="%s"/>' % (bx + 20, bar_y + 26, AMBER))
-        label(d, "Collab", bx + 36, bar_y + 21, 11, MUTE)
-        d.text("Open to interesting projects", bx + 36, bar_y + 40, 15, "700", BONE)
+        arches = [arch(M, 330, art_y, art_b, 150), arch(M + 312, 312, art_y, art_b), arch(M + 624, 312, art_y, art_b)]
+        box = (0, 222, 1860, 222 + round(1860 * art_h / cw))
+    d.defs.append('<clipPath id="art">%s</clipPath>' % "".join('<path d="%s"/>' % a for a in arches))
+    d.add('<image href="%s" x="%s" y="%s" width="%s" height="%s" preserveAspectRatio="none" clip-path="url(#art)"/>'
+          % (photo_uri(box, cw, art_h), M, art_y, cw, art_h))
+    for a in arches:
+        d.add('<path d="%s" fill="none" stroke="%s" stroke-width="2.5" stroke-linejoin="round"/>' % (a, BONE))
 
-    # artwork, whole and in its own colours
-    rr = 26 if not mob else 18
-    rect_d = ("M%s %sH%sQ%s %s %s %sV%sQ%s %s %s %sH%sQ%s %s %s %sV%sQ%s %s %s %sZ" % (
-        M + rr, art_y, M + cw - rr, M + cw, art_y, M + cw, art_y + rr, art_b - rr,
-        M + cw, art_b, M + cw - rr, art_b, M + rr, M, art_b, M, art_b - rr, art_y + rr, M, art_y, M + rr, art_y))
-    d.defs.append('<clipPath id="art"><path d="%s"/></clipPath>' % rect_d)
-    put = '<image href="%s" x="%s" y="%s" width="%s" height="%s" preserveAspectRatio="none" clip-path="url(#art)"/>' % (
-        photo_uri(60 if not mob else 0, cw, art_h, 2 if not mob else 2), M, art_y, cw, art_h)
-    d.add(put)
-    # name tag cut into the top-left corner
-    tw, th = (330, 112) if not mob else (190, 64)
-    tsz = 80 if not mob else 44
-    d.add('<g clip-path="url(#art)"><path d="M%s %sH%s L%s %sH%s Z" fill="%s"/></g>'
-          % (M, art_y, M + tw, M + tw - th * 0.36, art_y + th, M, INK))
-    d.text("RIZKI", M + (26 if not mob else 14), art_y + (th - 20 if not mob else th - 14), tsz, "900", BONE, -0.02)
-    d.add('<path d="%s" fill="none" stroke="%s" stroke-width="2.5" stroke-linejoin="round"/>' % (rect_d, BONE))
-
+    # ---- info columns
     if not mob:
-        c1, c2, c3 = M, M + 330, M + 660
-        label(d, "Role", c1, my + 6, 12, MUTE)
-        d.lines(["Full-Stack", "Developer", "& Digital Artist"], c1, my + 44, 36, 40, "800", BONE, -0.02)
-        d.rect(c2, my, 280, 3, BONE)
-        for i, (k, v) in enumerate((("Focus", "Full-stack development"), ("Creative", "Drawing & digital art"), ("Off-screen", "Anime"))):
-            yy = my + 36 + i * 62
+        c1, c2, c3 = M, M + 330, M + 640
+        d.text("Rizki //", c1, iy + 22, 26, "800", BONE, -0.01)
+        d.lines(["Full-Stack", "Developer", "& Digital Artist"], c1, iy + 70, 36, 40, "800", BONE, -0.02)
+        d.lines(JP, c1, iy + 184, 16, 26, "800", SOFT)
+        d.rect(c2, iy, 280, 3, BONE)
+        for i, (k, v) in enumerate(FACTS):
+            yy = iy + 36 + i * 62
             label(d, k, c2, yy, 12, MUTE)
             d.text(v, c2, yy + 25, 20, "700", BONE)
-        diamonds(d, c3 + 16, my + 18, 13)
-        d.text("リズキ", c3 + 52, my + 30, 30, "800", BONE)
-        d.lines(["好奇心でコードを書き、", "感情で創り、", "想像力で生きる。"], c3, my + 88, 17, 28, "800", SOFT)
+        diamonds(d, c2 + 252, iy + 228, 14)
+        d.text("リズキ", c2, iy + 242, 28, "800", BONE)
+        d.rect(c3, iy, W - M - c3, 3, BONE)
+        d.text("Say hi.", W - M, iy + 44, 36, "900", BONE, -0.02, "e")
+        d.text("こんにちは", W - M, iy + 68, 14, "800", MUTE, 0, "e")
+        by = iy + 90
+        for side, t in MSGS:
+            bubble(d, side, t, (W - M) if side == "r" else c3, by, 15, 16, 36)
+            by += 40
+    else:
+        d.text("Rizki //", M, iy + 20, 24, "800", BONE, -0.01)
+        d.lines(["Full-Stack Developer", "& Digital Artist"], M, iy + 60, 30, 34, "800", BONE, -0.02)
+        yy = iy + 112
+        d.rect(M, yy, cw, 3, BONE)
+        for i, (k, v) in enumerate(FACTS):
+            y3 = yy + 30 + i * 46
+            label(d, k, M, y3, 12, MUTE)
+            d.text(v, M, y3 + 21, 18, "700", BONE)
+        diamonds(d, W - M - 44, yy + 56, 12)
+        d.text("リズキ", W - M, yy + 124, 24, "800", BONE, 0, "e")
+        jy = yy + 30 + 3 * 46 + 22
+        d.lines(JP, M, jy, 16, 24, "800", SOFT)
+        cy_ = jy + 3 * 24 + 8
+        d.rect(M, cy_, cw, 3, BONE)
+        d.text("Say hi.", M, cy_ + 40, 30, "900", BONE, -0.02)
+        d.text("こんにちは", W - M, cy_ + 38, 13, "800", MUTE, 0, "e")
+        by = cy_ + 56
+        for side, t in MSGS:
+            bubble(d, side, t, (W - M) if side == "r" else M, by, 14, 14, 34)
+            by += 46
+
+    # ---- bottom slab
+    if not mob:
         slashes(d, M, slab_y, slab_h)
         sx0 = M + 188
         d.add('<path d="M%s %sH%s V%s H%s Z" fill="%s"/>' % (_n(sx0 + 34), slab_y, W - M, slab_y + slab_h, sx0, BLUE))
         col = (W - M - sx0 - 70) / 3
-        for i, (v, p) in enumerate((("Code", "with curiosity"), ("Create", "with feeling"), ("Live", "with imagination"))):
+        for i, (k, v) in enumerate(FACTS):
             x = sx0 + 56 + i * col
-            d.text(v, x, slab_y + 56, 34, "900", BONE, -0.01)
-            d.text(p, x, slab_y + 86, 16, "500", BONE)
+            label(d, k, x, slab_y + 34, 12, BONE)
+            d.text(("Full-stack", "Digital art", "Anime")[i], x, slab_y + 78, 30, "900", BONE, -0.01)
     else:
-        label(d, "Role", M, my + 4, 11, MUTE)
-        d.lines(["Full-Stack Developer", "& Digital Artist"], M, my + 38, 30, 34, "800", BONE, -0.02)
-        yy = my + 86
-        d.rect(M, yy, cw, 3, BONE)
-        rows = (("Base", "Indonesia"), ("Focus", "Full-stack development"), ("Creative", "Drawing & digital art"), ("Off-screen", "Anime"))
-        for i, (k, v) in enumerate(rows):
-            y3 = yy + 30 + i * 50
-            label(d, k, M, y3, 12, MUTE)
-            d.text(v, M, y3 + 22, 18, "700", BONE)
-        diamonds(d, W - M - 60, yy + 56, 12)
-        d.text("リズキ", W - M, yy + 134, 26, "800", BONE, 0, "e")
-        jy = yy + 30 + 4 * 50 + 6
-        d.lines(["好奇心でコードを書き、", "感情で創り、", "想像力で生きる。"], M, jy, 16, 26, "800", SOFT)
         slashes(d, M, slab_y, 44)
         sx0 = M + 92
         d.add('<path d="M%s %sH%s V%s H%s Z" fill="%s"/>' % (_n(sx0 + 22), slab_y, W - M, slab_y + slab_h, sx0, BLUE))
         col = (W - M - sx0 - 20) / 3
-        for i, (v, p) in enumerate((("Code", "with curiosity"), ("Create", "with feeling"), ("Live", "with imagination"))):
-            x = sx0 + 30 + i * (col - 8)
-            d.text(v, x, slab_y + 44, 22, "900", BONE, -0.01)
-            d.text(p, x, slab_y + 68, 12.5, "500", BONE)
+        names = ("Full-stack", "Digital art", "Anime")
+        for i, (k, v) in enumerate(FACTS):
+            x = sx0 + 30 + i * (col - 4)
+            label(d, k, x, slab_y + 34, 11, BONE)
+            d.text(names[i], x, slab_y + 66, 16, "900", BONE, -0.01)
     save(d, mob)
 
 

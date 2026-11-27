@@ -14,4 +14,4 @@ python3 build.py ../assets
 
 ## Hero artwork
 
-`build.py` embeds `tools/art/wallhaven-ml2j69.jpg` in the hero in its original colors (full width, cropped only vertically). To use another picture, replace that file or change `ART` and the `y0` crop offset in `photo_uri()`. The hero needs Pillow (`pip install pillow`) in addition to fontTools.
+`build.py` embeds `tools/art/wallhaven-ml2j69.jpg` in the hero in its original colors, cut into three arches. To use another picture, replace that file or change `ART` and the crop `box` values in `hero()`. The hero needs Pillow (`pip install pillow`) in addition to fontTools.
